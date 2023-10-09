@@ -1,14 +1,166 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Code Learning</title>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="CSS/styles.css">
+	<title>Challenge Project: Build Your Own Cheat Sheet</title>
 </head>
 <body>
-  <h1>Vladyslav Lavrinenko</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif"/>
+	<header>
+		<section class="header">
+			<h1>Personal Cheat Sheet</h1>
+			<nav>
+				<a href="index.html">HTML5 Cheat Sheet</a>
+				<a href="CSSCheatSheet.html">CSS Cheat Sheet</a>
+				<a href="References.html">Useful References</a>
+			</nav>
+		</section>
+		<p>Welcome to all visitors of this page. I present to your attention my own version of the project on Codecademy, namely "Own cheat sheet". I chose not to accumulate a large amount of tags and information, instead, in addition to the basic information, I provided links to resources that I personally liked and found relevant.</p>
+	</header>
+	<main>
+		<!-- HTML5 Cheat Sheet table describing tag meanings -->
+		<article>
+			<h2>HTML5 Cheat Sheet</h2>
+			<table class="table_block">
+				<thead>
+					<tr>
+						<th>Tag</th>
+						<th>Name</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Glossary/Doctype">&lt;!DOCTYPE&gt;</a></td>
+						<td>DOCUMENT TYPE</td>
+						<td>It is an "information" to the browser about what document type to expect</td>
+					</tr>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html">&lt;html&gt;</a></td>
+						<td>The HTML Document</td>
+						<td>The &lt;html&gt; HTML element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.</td>
+					</tr>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head">&lt;head&gt;</a></td>
+						<td>The Document Metadata (Header) element</td>
+						<td>The &lt;head&gt; HTML element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.</td>
+					</tr>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link">&lt;link&gt;</a></td>
+						<td>The External Resource Link element</td>
+						<td>The &lt;link&gt; HTML element specifies relationships between the current document and an external resource.</td>
+					</tr>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta">&lt;meta&gt;</a></td>
+						<td>The metadata element</td>
+						<td>The &lt;meta&gt; HTML element represents metadata that cannot be represented by other HTML meta-related elements, like &lt;base&gt;, &lt;link&gt;, &lt;script&gt;, &lt;style&gt; or &lt;title&gt;.</td>
+					</tr>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style">&lt;style&gt;</a></td>
+						<td>The Style Information element</td>
+						<td>The &lt;style&gt; HTML element contains style information for a document, or part of a document.</td>
+					</tr>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title">&lt;title&gt;</a></td>
+						<td>The Document Title element</td>
+						<td>The &lt;title&gt; HTML element defines the document's title that is shown in a browser's title bar or a page's tab.</td>
+					</tr>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body">&lt;body&gt;</a></td>
+						<td>The Document Body element</td>
+						<td>The &lt;body&gt; HTML element represents the content of an HTML document.</td>
+					</tr>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article">&lt;article&gt;</a></td>
+						<td>The Article Contents element</td>
+						<td>The &lt;article&gt; HTML element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication).</td>
+					</tr>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside">&lt;aside&gt;</a></td>
+						<td>The Aside element</td>
+						<td>The &lt;aside&gt; HTML element represents a portion of a document whose content is only indirectly related to the document's main content.</td>
+					</tr>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer">&lt;footer&gt;</a></td>
+						<td>The Footer for a section or a page</td>
+						<td>The &lt;footer&gt; HTML element represents a footer for its nearest ancestor sectioning content or sectioning root element.</td>
+					</tr>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header">&lt;header&gt;</a></td>
+						<td>The Header for a section or a page</td>
+						<td>The &lt;header&gt; HTML element represents introductory content, typically a group of introductory or navigational aids.</td>
+					</tr>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements">&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h1&gt;, &lt;h6>&gt;</a></td>
+						<td>The HTML Section Heading elements</td>
+						<td>Represent six levels of section headings. &lt;h1&gt; is the highest section level and &lt;h6&gt; is the lowest.</td>
+					</tr>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main">&lt;main&gt;</a></td>
+						<td>The main HTML element</td>
+						<td>The &lt;main&gt; HTML element represents the dominant content of the &lt;body&gt; of a document.</td>
+					</tr>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav">&lt;nav&gt;</a></td>
+						<td>The Navigation Section element</td>
+						<td>The &lt;nav&gt; HTML element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents.</td>
+					</tr>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section">&lt;section&gt;</a></td>
+						<td>The Generic Section element</td>
+						<td>The &lt;section&gt; HTML element represents a generic standalone section of a document, which doesn't have a more specific semantic element to represent it.</td>
+					</tr>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p">&lt;p&gt;</a></td>
+						<td>The Paragraph element</td>
+						<td>The &lt;p&gt; HTML element represents a paragraph.</td>
+					</tr>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol">&lt;ol&gt;</a></td>
+						<td>The Ordered List element</td>
+						<td>The &lt;ol&gt; HTML element represents an ordered list of items — typically rendered as a numbered list.</td>
+					</tr>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol">&lt;ul&gt;</a></td>
+						<td>The Unordered List element</td>
+						<td>The &lt;ul&gt; HTML element represents an unordered list of items, typically rendered as a bulleted list.</td>
+					</tr>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">&lt;img&gt;</a></td>
+						<td>The Image Embed element</td>
+						<td>The &lt;img&gt; HTML element embeds an image into the document.</td>
+					</tr>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">&lt;video&gt;</a></td>
+						<td>The Video Embed element</td>
+						<td>The &lt;video&gt; HTML element embeds a media player which supports video playback into the document.</td>
+					</tr>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio">&lt;audio&gt;</a></td>
+						<td>The Embed Audio element</td>
+						<td>The &lt;audio&gt; HTML element is used to embed sound content in documents.</td>
+					</tr>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio">&lt;table&gt;</a></td>
+						<td>The Table element</td>
+						<td>The &lt;table&gt; HTML element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="3"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Reference</a> and the extended list of elements</td>
+					</tr>
+				</tfoot>
+			</table>
+		</article>
+	</main>
+	<footer>
+		<small>Created as a project in the Web Development course at <a href="https://www.codecademy.com/catalog/subject/web-development">Codecademy</a> by Vladyslav Lavrinenko, <time>2023</time></small>
+		<audio autoplay>
+			<source src="Audio/mixkit-fast-double-click-on-mouse-275.wav" type="audio/wav" />
+		</audio>
+	</footer>
 </body>
-
 </html>
