@@ -1,0 +1,180 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	/*border: 1px greenyellow solid;*/
+}
+body {
+	margin: 0 auto;
+	width: 960px;
+	line-height: 1;
+	text-align: center;
+	background-color: white;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+header {
+	background-color:DarkCyan ;
+	width: 960px;
+	height: 170px;
+	position: static;
+	text-align: center;
+	display: block;
+}
+header nav {
+	position: static;
+}
+
+header p {
+	padding: 10px;
+	margin: 4px;
+	text-align: justify;
+	background-color: aliceblue;
+	border-radius: 10px;
+}
+
+.header {
+	background-color:DarkCyan;
+	width: 960px;
+	position: sticky;
+	top: 0px;
+}
+
+h1 {
+	margin: 0 auto;
+	padding: 5px;
+	color: aliceblue;
+	font-style: italic;
+	font-weight: 700;
+}
+
+h2 {
+	padding: 4px;
+	margin: 5px auto;
+}
+
+a {
+	text-decoration:none;
+}
+
+header nav a{
+	margin: 4px;
+	padding: 2px;
+	color: black;
+	border-radius: 5px;
+}
+
+header nav a:link {
+	display: inline-block;
+	position: relative;
+	background-color: aqua;
+}
+
+header nav a:hover{
+	background-color:Aquamarine;
+	transform: scale(1.05);
+}
+
+header nav a:active{
+	background-color:Crimson;
+}
+
+main {
+	background-color: antiquewhite;
+	width: 960px;
+	position:relative;
+	top: 0px;
+	display: block;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 5px;
+	background-color: LightCyan;
+}
+.table_block {
+  border-radius: 10px;
+  border: 3px solid DarkCyan;
+  display: block;
+}
+
+table th {
+	background-color: aqua;
+	border: 2px solid DarkCyan;
+}
+
+table td {
+	padding: 2px;
+	border: 2px solid DarkCyan;
+	text-align: center;
+}
+
+table td:hover{
+	background-color:antiquewhite;
+	transform: scale(1.02);
+}
+
+table a {
+	color: Crimson;
+}
+
+.Links {
+	display: block;
+}
+
+.Links figure {
+	display: inline-block;
+	margin: 10px;
+}
+
+.Links figure:hover {
+	display: inline-block;
+	color: Crimson;
+}
+
+.Links a{
+	display: inline-block;
+	padding: 5px;
+	margin: 10px;
+	width: 240px;
+	height: auto;
+}
+
+.Links img{
+	width: 240px;
+	height: auto;
+}
+
+.Links img:hover{
+	transform: scale(1.1);
+}
+
+footer {
+	position: relative;
+	display: block;
+	bottom: 0px;
+	background-color:DarkCyan ;
+	height: 50px;
+	width: 960px;
+}
+footer small {
+	display: inline-block;
+	margin: 15px auto;
+	padding: 5px;
+	color: aliceblue;
+}
+
+footer small time {
+	color: aquamarine;
+}
+
+footer small a {
+	color: aqua;
+}
+
+footer audio {
+	display: none;
+}
+
+
